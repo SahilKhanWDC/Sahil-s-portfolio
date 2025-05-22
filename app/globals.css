@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    font-family:'Montserrat';
+}
+
+::selection{
+    color: yellow;
+}
+
+#email-btn{
+    width: 100px;
+    height: 35px;
+    font-size:medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(29, 28, 28);
+}
+#email-btn:hover{
+    background-color: rgb(54, 53, 53);
+}
