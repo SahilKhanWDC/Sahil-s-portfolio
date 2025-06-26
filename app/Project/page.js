@@ -9,14 +9,14 @@ const page = () => {
         {/* Project 1 */}
         <div className="w-full sm:w-[95%] flex flex-col md:flex-row items-center justify-center md:justify-around bg-gray-900 rounded-2xl p-5 gap-5">
           <div className='w-full md:max-w-[30%] flex items-center justify-center'>
-            <img className='rounded-xl w-full max-w-xs' src="Images/1736232780535.jpg" alt="Bookit Screenshot" />
+            <img className='rounded-xl w-full max-w-xs' src="Images/youtube.png" alt="Bookit Screenshot" />
           </div>
           <div className='w-full md:w-[65%] flex flex-col gap-2 items-start p-5 justify-center'>
             <h1 className='text-xl font-bold'>Youtube - backend</h1>
             <h2 className=''>June 2025</h2>
             <p>Its complete backend project using functionalities like Aggregation pipelines, JWT authentication, Video upload using Multer and Cloudinary.</p>
             <Link target="_blank" rel="noopener noreferrer" href="https://github.com/SahilKhanWDC/youtube-backend.git">
-              <img width={25} className='invert mt-2' src="Images\Screenshot 2025-06-26 195947.png" alt="GitHub Repo" />
+              <img width={25} className='invert mt-2' src="Images/github.png" alt="GitHub Repo" />
             </Link>
           </div>
         </div>
@@ -53,14 +53,14 @@ const page = () => {
         {/* Project 4 */}
         <div className="w-full sm:w-[95%] flex flex-col md:flex-row items-center justify-center md:justify-around bg-gray-900 rounded-2xl p-5 gap-5">
           <div className='w-full md:max-w-[30%] flex items-center justify-center'>
-            <img className='rounded-xl w-full max-w-xs' src="Images/1727649648518.jpg" alt="PassMan Screenshot" />
+            <img className='rounded-xl w-full max-w-xs' src="Images/sms.png" alt="PassMan Screenshot" />
           </div>
           <div className='w-full md:w-[65%] flex flex-col gap-2 items-start p-5 justify-center'>
             <h1 className='text-xl font-bold'>Student Managemment System</h1>
             <h2>June 2025</h2>
-            <p>A student management system using C++ functionaliy of OOPs classes, Encapsulation and access modifiers.</p>
+            <p>A student management system using C++ functionality of OOPs classes, Encapsulation and access modifiers.</p>
             <Link target="_blank" rel="noopener noreferrer" href="https://github.com/SahilKhanWDC/Student-management-system.git">
-              <img width={25} className='invert mt-2' src="Images\Screenshot 2025-06-26 201102.png" alt="GitHub Repo" />
+              <img width={25} className='invert mt-2' src="Images/github.png" alt="GitHub Repo" />
             </Link>
           </div>
         </div>
